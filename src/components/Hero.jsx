@@ -6,7 +6,7 @@ import herobg from '../../src/assets/herobg.png'
 function Hero() {
   return (
     <section className="relative w-full h-screen mx-auto bg-[url('../../src/assets/herobg.png')] bg-cover bg-center bg-no-repeat">
-    <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
+    <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-10`}>
     <div className="relative flex gap-4" style={{ left: '200px' }}>
         <div className="flex flex-col items-center ">
         <div className="w-5 h-5 rounded-full bg-[#915eff] absolute top-0 z-10" />
@@ -21,10 +21,10 @@ function Hero() {
     </div>
                
          <ComputersCanvas/>  
-         <div className="xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+         <div className="xs:bottom-10  items-center absolute bottom-10 w-full flex justify-center z-10">
              <a href="#about">
-              <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#6B7280]  flex justify-center items-start p-2">
-                  <motion.dev 
+              <div className="w-[35px] h-[64px] rounded-3xl border-4 border-[#6B7280]  flex justify-center items-start p-2 mb-10">
+                  <motion.div 
                   animate={{
                     y: [0, 24, 0]
                   }}
@@ -33,7 +33,7 @@ function Hero() {
                     repeat: Infinity,
                     repeatType: 'loop'
                   }}
-                  className="w-3 h-3 rounded-full bg-[#915eff] mb-1"
+                  className="w-3 h-3 rounded-full bg-[#915eff] mb-1" 
                   />
               </div>
              </a>
