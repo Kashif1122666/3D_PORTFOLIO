@@ -5,7 +5,6 @@ import { styles } from "../styles"
 import { experiences } from "../constants"
 import { SectionWrapper } from "../hoc"
 import { textVariant } from "../utils/motion"
-import { div } from "three/src/nodes/TSL.js" 
 import { backend } from "../assets"
 
 
