@@ -73,10 +73,6 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
     name: "React JS",
     icon: reactjs,
   },
@@ -185,15 +181,15 @@ const projects = [
     tags: [
       {
         name: "react",
-        color: "blue-text-gradient",
+        color: "blue",
       },
       {
         name: "mongodb",
-        color: "green-text-gradient",
+        color: "green",
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "pink",
       },
     ],
     image: carrent,
