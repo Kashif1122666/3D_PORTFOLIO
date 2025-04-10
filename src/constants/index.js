@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  ecommerce,
+  jobPortel,
+  stockManagment,
 } from "../assets";
 
 export const navLinks = [
@@ -175,16 +178,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "I developed an e-commerce website with Firebase authentication, using React for the frontend and Tailwind CSS for styling. The app features Redux for state management, allowing users to add products to the cart or favorites. For a deeper look, click the GitHub icon to check the repository and explore the full set of features, from dynamic interactions to a responsive user interface.",
     tags: [
       {
         name: "react",
         color: "blue",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green",
       },
       {
@@ -192,50 +195,46 @@ const projects = [
         color: "pink",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ecommerce,
+    source_code_link: "https://github.com/Kashif1122666/K-and-Z-ecommerce-website",
   },
   {
-    name: "Job IT",
+    name: "Job Portal",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+     "I created a job portal where recruiters and students can create accounts. Recruiters have personalized dashboards to manage job postings, while students can filter jobs based on fields or locations. Recruiters can register companies and post jobs. Built with MongoDB, Node.js, Express.js, React, and ShadCN, explore the GitHub repository for more insights on the features and the user experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "mongodb",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: jobPortel,
+    source_code_link: "https://github.com/Kashif1122666/complete-Job-portal-app-with-mern-stack",
   },
   {
-    name: "Trip Guide",
+    name: "Stock Management",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "I developed a stock management app in React Native to enhance my skills. Built with React Native and styled using Tailwind CSS, this app allows users to manage stock levels effectively. It’s a mini project aimed at refining my React Native skills, offering a simple and intuitive interface. Visit the GitHub repository to explore the features and code behind the app.",
     tags: [
       {
-        name: "nextjs",
+        name: "reactNative",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "tailwind",
         color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      },    
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: stockManagment,
+    source_code_link: "https://github.com/Kashif1122666/stocksManagment_reactNative_CLI",
   },
 ];
 
