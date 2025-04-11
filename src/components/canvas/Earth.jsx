@@ -1,11 +1,16 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useEffect } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../Loader.jsx";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("/planet/scene.gltf");
+
+
+  
+  const { scene, nodes, materials } = useGLTF('/planet/scene.gltf');
+  console.log('Earth Model:', scene);
 
   return (
     <primitive object={earth.scene} 

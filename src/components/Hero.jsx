@@ -5,10 +5,10 @@ import { section } from "framer-motion/client"
 import herobg from '../../src/assets/herobg.png'
 function Hero() {
   return (
-    <section className="relative w-full h-screen mx-auto bg-[url('../../src/assets/herobg.png')] bg-cover bg-center bg-no-repeat mt-[80px]">
+    <section className="relative w-full h-screen min-h-[600px]  sm:min-h-[700px] mx-auto bg-[url('../../src/assets/herobg.png')] bg-cover bg-center bg-no-repeat mt-[80px]">
    
     <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-10`}>
-      <div className="relative flex gap-4" style={{ left: '200px' }}>
+      <div className=" flex  relative gap-4 left-[50px] sm:left-[120px] md:left-[200px]">
         <div className="flex flex-col items-center">
           <div className="w-5 h-5 rounded-full bg-[#915eff] absolute top-0 z-10" />
           <div className="w-1 sm:h-80 h-40 bg-gradient-to-t from-[#804dee] to-transparent mt-5" />
