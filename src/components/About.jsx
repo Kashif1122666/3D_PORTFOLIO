@@ -34,8 +34,9 @@ function About() {
   </motion.div>
 </section>
       <motion.p variants={fadeIn("","",0.1,1)} className="mt-4 text-gray-500 text-[17px] max-w-3xl leading-[30px]">
-         I'm a skilled software developer with experience in JavaScript , and expertise in frameworks like React, Node.js, and Express.js. I have a strong foundation in web development, including HTML, CSS, and responsive design. I'm passionate about creating user-friendly applications and continuously learning new technologies to enhance my skills.
-          I'm  a quick learner and collaborate effectively with teams to deliver high-quality software solutions. I have a strong foundation in computer science principles and a passion for problem-solving. I'm excited to contribute my skills to innovative projects and make a positive impact in the tech industry.         
+      I'm a skilled MERN Stack Developer with experience in JavaScript, MongoDB, Express.js, React.js, and Node.js. I have a strong foundation in web development, including HTML, CSS, and responsive design, and I'm passionate about building scalable, user-friendly applications.
+
+I'm a quick learner who collaborates effectively with teams to deliver high-performance software solutions. With a solid grasp of computer science principles and a problem-solving mindset, I thrive on turning ideas into efficient, real-world applications. I'm always expanding my skillset to stay ahead in the tech industry and contribute to impactful projects.       
       </motion.p>
       <div className='flex flex-wrap justify-center items-center gap-10 px-5'>
 
